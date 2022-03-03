@@ -1,0 +1,10 @@
+<div class="container my-2">
+    <form #formUsuario="ngForm">
+        <p>Nombre</p>
+        <input type="text" aria-label="First name" class="form-control" name="nombre" [{ngModel}]="usuario.nombre" required/>
+        <p>Apellido</p>
+        <input type="text" aria-label="First name" class="form-control" name="apellido"/>
+        <p>Edad</p>
+        <input type="text" aria-label="First name" class="form-control" name="edad" />
+    </form>
+</div>
